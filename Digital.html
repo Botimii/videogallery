@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: castellar, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ffcccc, #ff99cc, #ff66cc, #ff33cc);
+            color: #333;
+            overflow-x: hidden;
+        }
+        
+        header {
+            background: rgba(255, 0, 102, 0.7);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: justify-all;
+            position: static;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            padding: 1000;
+            margin: 0;
+            display: flex;
+            justify-content: right;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+           
+        }
+        #about, #projects, #contact {
+            padding: 2rem 0;
+            animation: fadeIn 2s;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .project-item {
+            background: #fff;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            width: 50px;
+        }
+        .project-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .social-media a {
+            color: #ff33cc;
+            font-size: 2rem;
+            transition: color 0.3s;
+        }
+        .social-media a:hover {
+            color: #fff;
+        }
+        footer {
+            background: rgba(255, 0, 102, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        img{
+           width: 200px;
+           height: 300px;
+           margin: 5px;
+           transition: all 1s
+          }
+          img:hover{
+           transform: scale(1.1);
+           }
+
+           li{
+             margin: 20px;
+             transition: all 1s;
+           }
+           li:hover{
+             transform: scale(1.5);
+           }
+        
+    </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <nav>
+            <ul> 
+                <li><a href="home1.html">Home</a></li>
+                <li><a href="About.html">Profile</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+                <li><a href="Digital.html">Project</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="container">
+<section id="portfolio" class="pink-section">
+  <div class="container">
+    <h2>About Digital Marketing:</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="https://i.pinimg.com/564x/cd/c0/27/cdc027ae79bd7c6522a61cf852b020b8.jpg" alt="Portfolio Item 1">
+        
+
+        <img src="https://i.pinimg.com/736x/49/32/37/493237416488f44c9228e42951bfd6cf.jpg" alt="Portfolio Item 2">
+
+
+        <img src="https://i.pinimg.com/564x/c0/36/fd/c036fd1d619cd92b723bb2386037d0df.jpg" alt="Portfolio Item 3">
+       
+
+        <img src="https://i.pinimg.com/564x/eb/89/63/eb896307e81b266652d6a51b9e3f7bb4.jpg" alt="Portfolio Item 4">
+        
+ 
+        <img src="https://i.pinimg.com/564x/9a/b5/d9/9ab5d944ad2dbe66d64fc2bcff83105a.jpg" alt="Portfolio Item 5">
+        
+
+        <img src="https://i.pinimg.com/564x/3f/b6/0f/3fb60f84dd6d84b9e521f622cb225f3c.jpg" alt="Portfolio Item 6">
+        
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</body>

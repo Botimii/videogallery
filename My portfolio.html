@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: castellar, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ffcccc, #ff99cc, #ff66cc, #ff33cc);
+            color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            background: rgba(255, 0, 102, 0.7);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: justify-all;
+            position: static;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            padding: 1000;
+            margin: 0;
+            display: flex;
+            justify-content: right;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        #about, #projects, #contact {
+            padding: 2rem 0;
+            animation: fadeIn 2s;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .project-item {
+            background: #fff;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            width: 50px;
+        }
+        .project-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .social-media a {
+            color: #ff33cc;
+            font-size: 2rem;
+            transition: color 0.3s;
+        }
+        .social-media a:hover {
+            color: #fff;
+        }
+        footer {
+            background: rgba(255, 0, 102, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        img{
+           width: 200px;
+           height: 300px;
+           margin: 5px;
+           transition: all 1s
+          }
+          img:hover{
+           transform: scale(1.1);
+           }
+
+           li{
+             margin: 20px;
+             transition: all 1s;
+           }
+           li:hover{
+             transform: scale(1.5);
+           }
+        
+    </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <nav>
+          <ul> 
+            <li><a href="home1.html">Home</a></li>
+            <li><a href="About.html">Profile</a></li>
+            <li><a href="Contact.html">Contact us</a></li>
+            <li><a href="Digital.html">Project</a></li>
+        </ul>
+        </nav>
+    </div>
+</header>
+<div class="container">
+  <section id="about">
+      <h2>About Me</h2>
+      <p>🌟 Welcome! I'm Tiemo Botimi, a passionate digital marketer with a specialization in social media strategy and management.
+
+          🚀 With 11 Months of experience in the dynamic world of digital marketing, I've honed my skills in crafting compelling 
+          narratives and creating engaging content that resonates with audiences across various social media platforms.
+          
+          📱 My journey in digital marketing began with a fascination for the power of social media as a tool for connection, 
+          communication, and community building. From there, I've immersed myself in mastering the ever-evolving landscape of platforms
+           such as Instagram, Facebook, Twitter, LinkedIn, and TikTok, staying ahead of trends and algorithm changes to ensure maximum impact for my clients.
+          
+          💡 What sets me apart is my strategic approach. I don't just focus on vanity metrics; I delve deep into understanding your
+           brand's objectives, target audience, and market positioning to develop tailored social media strategies that drive real
+            results. Whether it's increasing brand awareness, fostering customer engagement, or driving conversions,
+             I'm dedicated to helping your brand thrive in the digital sphere.
+          
+          🎨 From content creation and community management to influencer collaborations and paid advertising,
+           I offer a comprehensive suite of services designed to elevate your social media presence and achieve your business goals.
+          
+          🌐 Let's connect and embark on an exciting journey to elevate your brand's digital footprint together!</p>
+      
+      <h2>Testimonials</h2>
+    
+              <div class="testimonial">
+                <p>"As a digital manager, I've had the pleasure of working with  L'oreal on their digital marketing initiatives.
+                     From the outset, their dedication to achieving success in the online realm was evident. Their clear communication, proactive approach, and willingness to embrace innovative strategies made our collaboration seamless and effective.
+
+                    Together, we navigated through various challenges, adapting our tactics to suit the evolving landscape of digital marketing.
+                     Through strategic planning, targeted campaigns, and meticulous analysis of data, we were able to achieve remarkable results for their brand.
+                    
+                    I'm proud to have been part of their journey and witness the significant growth and success they've achieved. 
+                    Their trust in my expertise and willingness to implement new ideas have truly been instrumental in our shared accomplishments.
+                    
+                    I look forward to continuing our partnership and exploring new opportunities to elevate their digital presence even further. Thank you, L'oreal, for your trust and collaboration.
+                     Here's to continued success!."</p>
+                <cite>L'oreal Cosmetics</cite>
+              </div>
+              <!-- Add more testimonials as needed -->
+            </div>
+            <section id="services">
+              <div class="container">
+                <h2>Our Services</h2>
+                <div>
+                  <p>Social Media Strategy</p>
+                  <p>Content Creation</p>
+                  <p>Community Management</p>
+                  <p>Influencer Marketing</p>
+                  <p>Paid Advertising</p>
+                </div>
+              </div>
+            </section>
+            
+          </section>
+
+  </section>
+</div>
+
+</body>
